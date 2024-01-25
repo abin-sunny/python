@@ -1,0 +1,5 @@
+n=input("Enter list of numners")
+s=list(map(int,n.split(" ")))
+m=max(s)
+mi=min(s)
+print("Maximum  number",m,"\nminumum number:",mi)
